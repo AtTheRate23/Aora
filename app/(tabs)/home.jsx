@@ -67,6 +67,8 @@ const Home = () => {
           <EmptyState
             title="No videos found"
             subtitle="be the first one to upload a video"
+            path="/create"
+            btnTitle="Create Video"
           />
         )}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
